@@ -49,13 +49,13 @@
     </dependencies>
 
     <build>
-        <finalName>shipping</finalName>
+        <finalName>queue-master</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.msa.demo.sockshop.ShippingServiceApplication</mainClass>
+                    <mainClass>com.msa.demo.sockshop.QueueMasterApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
